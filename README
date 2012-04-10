@@ -1,0 +1,8 @@
+README file, explained main features of the software. Also for git use
+	***	00State	***
+Quick explanation
+	src	
+		opt_q directory 
+			-> Contains program dedicated to test the command on numeric mcc and figuring out best correction
+		process_monitor
+			-> Contains program dedicated to assist processur programmation and debug
