@@ -125,7 +125,7 @@ int plot_results() {
 
 	gp = popen(GNUPLOT_PATH, "w");
 	printf("Figuring out gnuplot path...\n");
-	fprintf(gp, "load \"config\"\n");
+	fprintf(gp, "load \"config_motor\"\n");
 	printf("Loading gnuplot config file...\n");
 	fflush(gp);
 	getchar();
