@@ -43,8 +43,8 @@ fd_out = open('check.dat', 'w')
 # division de la fréquence de fonctionnement par 160
 
 # Intégration du modèle de la MCC et simulation du manoeuvrage manuel du rotor
-virtual = 0
-test = 0 - virtual
+virtual = 1
+test = 1 - virtual
 # Paramètre de la correction
 L1 = 20.6028
 L2 = 76.4
@@ -191,6 +191,8 @@ print 'Commande:	', cmd_i0
 if (virtual or test):
 	plt.figure(1)
 	#plt.subplot(221)
+	plt.annotate('ThetaR', xy=(stop/2, position0[stop/2]), xytext=(3, 1.5),
+			     arrowprops=dict(facecolor='black', shrink=0.05),)
 	plt.title('Theta, wr, commande')
 	plt.plot(t, position0, 'r', t, speed0, 'g', t, cmd_i1, 'b')
 	plt.figure(2)

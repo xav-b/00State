@@ -1,0 +1,550 @@
+Consigne reduite:	0.020000tour: 	1
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.000000
+Consigne reduite - retour en position:	1.528000
+WR * L1:	0.000000
+Consigne réduite moins retour vitesse:	1.528000
+pre intégration: -0.020000
+intégré: -0.000200
+intégrateur * L3: -0.000632Consigne réduite moins retour intégrateur:	1.528632
+La même après première saturation à (-)1 (cmd_i0):	1.000000La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	2
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.000000
+Consigne reduite - retour en position:	1.528000
+WR * L1:	0.000000
+Consigne réduite moins retour vitesse:	1.528000
+pre intégration: -0.020000
+intégré: -0.000200
+intégrateur * L3: -0.000632Consigne réduite moins retour intégrateur:	1.528632
+La même après première saturation à (-)1 (cmd_i0):	1.000000La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	3
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.000000
+Consigne reduite - retour en position:	1.528000
+WR * L1:	0.071080
+Consigne réduite moins retour vitesse:	1.456920
+pre intégration: -0.020000
+intégré: -0.000200
+intégrateur * L3: -0.000632Consigne réduite moins retour intégrateur:	1.457553
+La même après première saturation à (-)1 (cmd_i0):	1.000000La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	4
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.002636
+Consigne reduite - retour en position:	1.525364
+WR * L1:	0.141164
+Consigne réduite moins retour vitesse:	1.384200
+pre intégration: -0.019966
+intégré: -0.000200
+intégrateur * L3: -0.000631Consigne réduite moins retour intégrateur:	1.384831
+La même après première saturation à (-)1 (cmd_i0):	1.000000La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	5
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.007870
+Consigne reduite - retour en position:	1.520130
+WR * L1:	0.210268
+Consigne réduite moins retour vitesse:	1.309862
+pre intégration: -0.019897
+intégré: -0.000199
+intégrateur * L3: -0.000629Consigne réduite moins retour intégrateur:	1.310491
+La même après première saturation à (-)1 (cmd_i0):	1.000000La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	6
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.015668
+Consigne reduite - retour en position:	1.512332
+WR * L1:	0.278403
+Consigne réduite moins retour vitesse:	1.233929
+pre intégration: -0.019795
+intégré: -0.000198
+intégrateur * L3: -0.000626Consigne réduite moins retour intégrateur:	1.234555
+La même après première saturation à (-)1 (cmd_i0):	1.000000La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	7
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.025992
+Consigne reduite - retour en position:	1.502008
+WR * L1:	0.345585
+Consigne réduite moins retour vitesse:	1.156423
+pre intégration: -0.019660
+intégré: -0.000197
+intégrateur * L3: -0.000622Consigne réduite moins retour intégrateur:	1.157045
+La même après première saturation à (-)1 (cmd_i0):	1.000000La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	8
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.038807
+Consigne reduite - retour en position:	1.489193
+WR * L1:	0.411827
+Consigne réduite moins retour vitesse:	1.077366
+pre intégration: -0.019492
+intégré: -0.000195
+intégrateur * L3: -0.000616Consigne réduite moins retour intégrateur:	1.077983
+La même après première saturation à (-)1 (cmd_i0):	1.000000La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	9
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.054078
+Consigne reduite - retour en position:	1.473922
+WR * L1:	0.477141
+Consigne réduite moins retour vitesse:	0.996781
+pre intégration: -0.019292
+intégré: -0.000193
+intégrateur * L3: -0.000610Consigne réduite moins retour intégrateur:	0.997391
+La même après première saturation à (-)1 (cmd_i0):	0.997391La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	10
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.071772
+Consigne reduite - retour en position:	1.456228
+WR * L1:	0.541541
+Consigne réduite moins retour vitesse:	0.914688
+pre intégration: -0.019061
+intégré: -0.000191
+intégrateur * L3: -0.000603Consigne réduite moins retour intégrateur:	0.915290
+La même après première saturation à (-)1 (cmd_i0):	0.915290La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	11
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.091853
+Consigne reduite - retour en position:	1.436147
+WR * L1:	0.605039
+Consigne réduite moins retour vitesse:	0.831108
+pre intégration: -0.018798
+intégré: -0.000188
+intégrateur * L3: -0.000594Consigne réduite moins retour intégrateur:	0.831702
+La même après première saturation à (-)1 (cmd_i0):	0.831702La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	12
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.114290
+Consigne reduite - retour en position:	1.413710
+WR * L1:	0.667648
+Consigne réduite moins retour vitesse:	0.746063
+pre intégration: -0.018504
+intégré: -0.000185
+intégrateur * L3: -0.000585Consigne réduite moins retour intégrateur:	0.746648
+La même après première saturation à (-)1 (cmd_i0):	0.746648La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	13
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.139047
+Consigne reduite - retour en position:	1.388953
+WR * L1:	0.729381
+Consigne réduite moins retour vitesse:	0.659572
+pre intégration: -0.018180
+intégré: -0.000182
+intégrateur * L3: -0.000575Consigne réduite moins retour intégrateur:	0.660147
+La même après première saturation à (-)1 (cmd_i0):	0.660147La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	14
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.166095
+Consigne reduite - retour en position:	1.361905
+WR * L1:	0.790249
+Consigne réduite moins retour vitesse:	0.571657
+pre intégration: -0.017826
+intégré: -0.000178
+intégrateur * L3: -0.000564Consigne réduite moins retour intégrateur:	0.572220
+La même après première saturation à (-)1 (cmd_i0):	0.572220La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	15
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.195399
+Consigne reduite - retour en position:	1.332601
+WR * L1:	0.850265
+Consigne réduite moins retour vitesse:	0.482336
+pre intégration: -0.017442
+intégré: -0.000174
+intégrateur * L3: -0.000552Consigne réduite moins retour intégrateur:	0.482888
+La même après première saturation à (-)1 (cmd_i0):	0.482888La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	16
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.226929
+Consigne reduite - retour en position:	1.301071
+WR * L1:	0.909441
+Consigne réduite moins retour vitesse:	0.391630
+pre intégration: -0.017030
+intégré: -0.000170
+intégrateur * L3: -0.000539Consigne réduite moins retour intégrateur:	0.392169
+La même après première saturation à (-)1 (cmd_i0):	0.392169La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	17
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.260653
+Consigne reduite - retour en position:	1.267347
+WR * L1:	0.967788
+Consigne réduite moins retour vitesse:	0.299559
+pre intégration: -0.016588
+intégré: -0.000166
+intégrateur * L3: -0.000525Consigne réduite moins retour intégrateur:	0.300083
+La même après première saturation à (-)1 (cmd_i0):	0.300083La même après saturation à (-)0.25 (cmd_i0):	0.250000
+tour: 	18
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.296541
+Consigne reduite - retour en position:	1.231459
+WR * L1:	1.025319
+Consigne réduite moins retour vitesse:	0.206140
+pre intégration: -0.016119
+intégré: -0.000161
+intégrateur * L3: -0.000510Consigne réduite moins retour intégrateur:	0.206650
+La même après première saturation à (-)1 (cmd_i0):	0.206650La même après saturation à (-)0.25 (cmd_i0):	0.206650
+tour: 	19
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.334562
+Consigne reduite - retour en position:	1.193438
+WR * L1:	1.082044
+Consigne réduite moins retour vitesse:	0.111394
+pre intégration: -0.015621
+intégré: -0.000156
+intégrateur * L3: -0.000494Consigne réduite moins retour intégrateur:	0.111888
+La même après première saturation à (-)1 (cmd_i0):	0.111888La même après saturation à (-)0.25 (cmd_i0):	0.111888
+tour: 	20
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.374687
+Consigne reduite - retour en position:	1.153313
+WR * L1:	1.125650
+Consigne réduite moins retour vitesse:	0.027663
+pre intégration: -0.015096
+intégré: -0.000151
+intégrateur * L3: -0.000477Consigne réduite moins retour intégrateur:	0.028141
+La même après première saturation à (-)1 (cmd_i0):	0.028141La même après saturation à (-)0.25 (cmd_i0):	0.028141
+tour: 	21
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.416428
+Consigne reduite - retour en position:	1.111572
+WR * L1:	1.141703
+Consigne réduite moins retour vitesse:	-0.030131
+pre intégration: -0.014549
+intégré: -0.000145
+intégrateur * L3: -0.000460Consigne réduite moins retour intégrateur:	-0.029671
+La même après première saturation à (-)1 (cmd_i0):	-0.029671La même après saturation à (-)0.25 (cmd_i0):	-0.029671
+tour: 	22
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.458765
+Consigne reduite - retour en position:	1.069235
+WR * L1:	1.133720
+Consigne réduite moins retour vitesse:	-0.064485
+pre intégration: -0.013995
+intégré: -0.000140
+intégrateur * L3: -0.000443Consigne réduite moins retour intégrateur:	-0.064043
+La même après première saturation à (-)1 (cmd_i0):	-0.064043La même après saturation à (-)0.25 (cmd_i0):	-0.064043
+tour: 	23
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.500806
+Consigne reduite - retour en position:	1.027194
+WR * L1:	1.109412
+Consigne réduite moins retour vitesse:	-0.082218
+pre intégration: -0.013445
+intégré: -0.000134
+intégrateur * L3: -0.000425Consigne réduite moins retour intégrateur:	-0.081793
+La même après première saturation à (-)1 (cmd_i0):	-0.081793La même après saturation à (-)0.25 (cmd_i0):	-0.081793
+tour: 	24
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.541946
+Consigne reduite - retour en position:	0.986054
+WR * L1:	1.075671
+Consigne réduite moins retour vitesse:	-0.089617
+pre intégration: -0.012906
+intégré: -0.000129
+intégrateur * L3: -0.000408Consigne réduite moins retour intégrateur:	-0.089209
+La même après première saturation à (-)1 (cmd_i0):	-0.089209La même après saturation à (-)0.25 (cmd_i0):	-0.089209
+tour: 	25
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.581834
+Consigne reduite - retour en position:	0.946166
+WR * L1:	1.037357
+Consigne réduite moins retour vitesse:	-0.091191
+pre intégration: -0.012384
+intégré: -0.000124
+intégrateur * L3: -0.000392Consigne réduite moins retour intégrateur:	-0.090800
+La même après première saturation à (-)1 (cmd_i0):	-0.090800La même après saturation à (-)0.25 (cmd_i0):	-0.090800
+tour: 	26
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.620302
+Consigne reduite - retour en position:	0.907698
+WR * L1:	0.997470
+Consigne réduite moins retour vitesse:	-0.089772
+pre intégration: -0.011881
+intégré: -0.000119
+intégrateur * L3: -0.000376Consigne réduite moins retour intégrateur:	-0.089396
+La même après première saturation à (-)1 (cmd_i0):	-0.089396La même après saturation à (-)0.25 (cmd_i0):	-0.089396
+tour: 	27
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.657291
+Consigne reduite - retour en position:	0.870709
+WR * L1:	0.957689
+Consigne réduite moins retour vitesse:	-0.086980
+pre intégration: -0.011397
+intégré: -0.000114
+intégrateur * L3: -0.000360Consigne réduite moins retour intégrateur:	-0.086619
+La même après première saturation à (-)1 (cmd_i0):	-0.086619La même après saturation à (-)0.25 (cmd_i0):	-0.086619
+tour: 	28
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.692804
+Consigne reduite - retour en position:	0.835196
+WR * L1:	0.918865
+Consigne réduite moins retour vitesse:	-0.083669
+pre intégration: -0.010932
+intégré: -0.000109
+intégrateur * L3: -0.000346Consigne réduite moins retour intégrateur:	-0.083323
+La même après première saturation à (-)1 (cmd_i0):	-0.083323La même après saturation à (-)0.25 (cmd_i0):	-0.083323
+tour: 	29
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.726878
+Consigne reduite - retour en position:	0.801122
+WR * L1:	0.881373
+Consigne réduite moins retour vitesse:	-0.080251
+pre intégration: -0.010486
+intégré: -0.000105
+intégrateur * L3: -0.000332Consigne réduite moins retour intégrateur:	-0.079919
+La même après première saturation à (-)1 (cmd_i0):	-0.079919La même après saturation à (-)0.25 (cmd_i0):	-0.079919
+tour: 	30
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.759561
+Consigne reduite - retour en position:	0.768439
+WR * L1:	0.845344
+Consigne réduite moins retour vitesse:	-0.076904
+pre intégration: -0.010058
+intégré: -0.000101
+intégrateur * L3: -0.000318Consigne réduite moins retour intégrateur:	-0.076586
+La même après première saturation à (-)1 (cmd_i0):	-0.076586La même après saturation à (-)0.25 (cmd_i0):	-0.076586
+tour: 	31
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.790908
+Consigne reduite - retour en position:	0.737092
+WR * L1:	0.810786
+Consigne réduite moins retour vitesse:	-0.073695
+pre intégration: -0.009648
+intégré: -0.000096
+intégrateur * L3: -0.000305Consigne réduite moins retour intégrateur:	-0.073389
+La même après première saturation à (-)1 (cmd_i0):	-0.073389La même après saturation à (-)0.25 (cmd_i0):	-0.073389
+tour: 	32
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.820974
+Consigne reduite - retour en position:	0.707026
+WR * L1:	0.777660
+Consigne réduite moins retour vitesse:	-0.070634
+pre intégration: -0.009254
+intégré: -0.000093
+intégrateur * L3: -0.000293Consigne réduite moins retour intégrateur:	-0.070342
+La même après première saturation à (-)1 (cmd_i0):	-0.070342La même après saturation à (-)0.25 (cmd_i0):	-0.070342
+tour: 	33
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.849812
+Consigne reduite - retour en position:	0.678188
+WR * L1:	0.745907
+Consigne réduite moins retour vitesse:	-0.067719
+pre intégration: -0.008877
+intégré: -0.000089
+intégrateur * L3: -0.000281Consigne réduite moins retour intégrateur:	-0.067438
+La même après première saturation à (-)1 (cmd_i0):	-0.067438La même après saturation à (-)0.25 (cmd_i0):	-0.067438
+tour: 	34
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.877472
+Consigne reduite - retour en position:	0.650528
+WR * L1:	0.715465
+Consigne réduite moins retour vitesse:	-0.064936
+pre intégration: -0.008515
+intégré: -0.000085
+intégrateur * L3: -0.000269Consigne réduite moins retour intégrateur:	-0.064667
+La même après première saturation à (-)1 (cmd_i0):	-0.064667La même après saturation à (-)0.25 (cmd_i0):	-0.064667
+tour: 	35
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.904003
+Consigne reduite - retour en position:	0.623997
+WR * L1:	0.686275
+Consigne réduite moins retour vitesse:	-0.062277
+pre intégration: -0.008168
+intégré: -0.000082
+intégrateur * L3: -0.000258Consigne réduite moins retour intégrateur:	-0.062019
+La même après première saturation à (-)1 (cmd_i0):	-0.062019La même après saturation à (-)0.25 (cmd_i0):	-0.062019
+tour: 	36
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.929451
+Consigne reduite - retour en position:	0.598549
+WR * L1:	0.658281
+Consigne réduite moins retour vitesse:	-0.059732
+pre intégration: -0.007834
+intégré: -0.000078
+intégrateur * L3: -0.000248Consigne réduite moins retour intégrateur:	-0.059484
+La même après première saturation à (-)1 (cmd_i0):	-0.059484La même après saturation à (-)0.25 (cmd_i0):	-0.059484
+tour: 	37
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.953862
+Consigne reduite - retour en position:	0.574138
+WR * L1:	0.631432
+Consigne réduite moins retour vitesse:	-0.057293
+pre intégration: -0.007515
+intégré: -0.000075
+intégrateur * L3: -0.000238Consigne réduite moins retour intégrateur:	-0.057056
+La même après première saturation à (-)1 (cmd_i0):	-0.057056La même après saturation à (-)0.25 (cmd_i0):	-0.057056
+tour: 	38
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.977277
+Consigne reduite - retour en position:	0.550723
+WR * L1:	0.605679
+Consigne réduite moins retour vitesse:	-0.054956
+pre intégration: -0.007208
+intégré: -0.000072
+intégrateur * L3: -0.000228Consigne réduite moins retour intégrateur:	-0.054728
+La même après première saturation à (-)1 (cmd_i0):	-0.054728La même après saturation à (-)0.25 (cmd_i0):	-0.054728
+tour: 	39
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	0.999737
+Consigne reduite - retour en position:	0.528263
+WR * L1:	0.580977
+Consigne réduite moins retour vitesse:	-0.052714
+pre intégration: -0.006914
+intégré: -0.000069
+intégrateur * L3: -0.000219Consigne réduite moins retour intégrateur:	-0.052496
+La même après première saturation à (-)1 (cmd_i0):	-0.052496La même après saturation à (-)0.25 (cmd_i0):	-0.052496
+tour: 	40
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.021281
+Consigne reduite - retour en position:	0.506719
+WR * L1:	0.557284
+Consigne réduite moins retour vitesse:	-0.050565
+pre intégration: -0.006632
+intégré: -0.000066
+intégrateur * L3: -0.000210Consigne réduite moins retour intégrateur:	-0.050355
+La même après première saturation à (-)1 (cmd_i0):	-0.050355La même après saturation à (-)0.25 (cmd_i0):	-0.050355
+tour: 	41
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.041946
+Consigne reduite - retour en position:	0.486054
+WR * L1:	0.534556
+Consigne réduite moins retour vitesse:	-0.048502
+pre intégration: -0.006362
+intégré: -0.000064
+intégrateur * L3: -0.000201Consigne réduite moins retour intégrateur:	-0.048301
+La même après première saturation à (-)1 (cmd_i0):	-0.048301La même après saturation à (-)0.25 (cmd_i0):	-0.048301
+tour: 	42
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.061769
+Consigne reduite - retour en position:	0.466231
+WR * L1:	0.512756
+Consigne réduite moins retour vitesse:	-0.046524
+pre intégration: -0.006103
+intégré: -0.000061
+intégrateur * L3: -0.000193Consigne réduite moins retour intégrateur:	-0.046331
+La même après première saturation à (-)1 (cmd_i0):	-0.046331La même après saturation à (-)0.25 (cmd_i0):	-0.046331
+tour: 	43
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.080783
+Consigne reduite - retour en position:	0.447217
+WR * L1:	0.491844
+Consigne réduite moins retour vitesse:	-0.044627
+pre intégration: -0.005854
+intégré: -0.000059
+intégrateur * L3: -0.000185Consigne réduite moins retour intégrateur:	-0.044442
+La même après première saturation à (-)1 (cmd_i0):	-0.044442La même après saturation à (-)0.25 (cmd_i0):	-0.044442
+tour: 	44
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.099022
+Consigne reduite - retour en position:	0.428978
+WR * L1:	0.471785
+Consigne réduite moins retour vitesse:	-0.042807
+pre intégration: -0.005615
+intégré: -0.000056
+intégrateur * L3: -0.000178Consigne réduite moins retour intégrateur:	-0.042630
+La même après première saturation à (-)1 (cmd_i0):	-0.042630La même après saturation à (-)0.25 (cmd_i0):	-0.042630
+tour: 	45
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.116517
+Consigne reduite - retour en position:	0.411483
+WR * L1:	0.452545
+Consigne réduite moins retour vitesse:	-0.041061
+pre intégration: -0.005386
+intégré: -0.000054
+intégrateur * L3: -0.000170Consigne réduite moins retour intégrateur:	-0.040891
+La même après première saturation à (-)1 (cmd_i0):	-0.040891La même après saturation à (-)0.25 (cmd_i0):	-0.040891
+tour: 	46
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.133298
+Consigne reduite - retour en position:	0.394702
+WR * L1:	0.434089
+Consigne réduite moins retour vitesse:	-0.039387
+pre intégration: -0.005166
+intégré: -0.000052
+intégrateur * L3: -0.000163Consigne réduite moins retour intégrateur:	-0.039223
+La même après première saturation à (-)1 (cmd_i0):	-0.039223La même après saturation à (-)0.25 (cmd_i0):	-0.039223
+tour: 	47
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.149395
+Consigne reduite - retour en position:	0.378605
+WR * L1:	0.416385
+Consigne réduite moins retour vitesse:	-0.037780
+pre intégration: -0.004956
+intégré: -0.000050
+intégrateur * L3: -0.000157Consigne réduite moins retour intégrateur:	-0.037624
+La même après première saturation à (-)1 (cmd_i0):	-0.037624La même après saturation à (-)0.25 (cmd_i0):	-0.037624
+tour: 	48
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.164836
+Consigne reduite - retour en position:	0.363164
+WR * L1:	0.399404
+Consigne réduite moins retour vitesse:	-0.036240
+pre intégration: -0.004753
+intégré: -0.000048
+intégrateur * L3: -0.000150Consigne réduite moins retour intégrateur:	-0.036089
+La même après première saturation à (-)1 (cmd_i0):	-0.036089La même après saturation à (-)0.25 (cmd_i0):	-0.036089
+tour: 	49
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.179646
+Consigne reduite - retour en position:	0.348354
+WR * L1:	0.383115
+Consigne réduite moins retour vitesse:	-0.034762
+pre intégration: -0.004560
+intégré: -0.000046
+intégrateur * L3: -0.000144Consigne réduite moins retour intégrateur:	-0.034618
+La même après première saturation à (-)1 (cmd_i0):	-0.034618La même après saturation à (-)0.25 (cmd_i0):	-0.034618
+tour: 	50
+Couple de la charge réduite:	0.000000
+Consigne reduite * L2:	1.528000
+position * L2:	1.193853
+Consigne reduite - retour en position:	0.334147
+WR * L1:	0.367491
+Consigne réduite moins retour vitesse:	-0.033344
+pre intégration: -0.004374
+intégré: -0.000044
+intégrateur * L3: -0.000138Consigne réduite moins retour intégrateur:	-0.033206
+La même après première saturation à (-)1 (cmd_i0):	-0.033206La même après saturation à (-)0.25 (cmd_i0):	-0.033206
