@@ -121,5 +121,11 @@ int main(int argc, char **argv) {
 //TODO optimisation
 //TODO design
 //TODO réduction quadratique
-//TODO profile de comportement
+//TODO profile de comportement <=> perfs = f(input.conf)
 //TODO intégration d'identification, de commande adaptative, robuste, (prédictive ??) ==> étude
+//
+//TODO Grace au profile de comportement, réglage des performances dynamique
+//Ou alors en recherchant dans les résultats une configuration adequat
+//Ou alors en mettant en forme l'affichage des perfs
+//TODO Regler les bugs!!
+//TODO Organiser le code avec une boîte réelle du processeur
