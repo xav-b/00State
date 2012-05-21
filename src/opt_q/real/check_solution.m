@@ -19,11 +19,11 @@ function flag = check_solution( A, q_omega, q_theta, q_integral )
 	HA = H.*A;
 
 	if ( rank(A) == rank([H, HA]))
-		printf( "Ranks equal\n" );
+#		printf( "Ranks equal\n" );
         flag = 0;
 	else
 		##error( "! Different ranks, no solution" );
-        printf( "Ranks not equal\n" )
+ #       printf( "Ranks not equal\n" )
         flag = -1;
 	endif
 	

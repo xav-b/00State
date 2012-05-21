@@ -34,20 +34,6 @@ int main(int argc, char **argv) {
 
 	init(&val_out, &vect);		//Global variables initialisation
 
-    arg_list[0] = "reduc_quad.m";
-    /*arg_list[1] = (char)vect.L1;*/
-    /*arg_list[2] = (char)vect.L2;*/
-    /*arg_list[3] = (char)vect.L3;*/
-    /*arg_list[5] = R;    //TODO R and MU in input.conf*/
-    /*arg_list[6] = MU;*/
-    arg_list[1] = "4";
-    arg_list[2] = "3";
-    arg_list[3] = "2";
-    arg_list[4] = "1";
-    arg_list[5] = "1";
-    //spawn("./reduc_quad.m", arg_list);
-    //wait(&child_status);
-
 	L2_save = vect.L2;
 	L3_save = vect.L3;
 	tot_simu = ((vect.L1_MAX - vect.L1)/vect.L1_PAS)*((vect.L2_MAX - vect.L2)/vect.L2_PAS)*((vect.L3_MAX - vect.L3)/vect.L3_PAS);
@@ -58,7 +44,7 @@ int main(int argc, char **argv) {
 	fd = fopen(datafile, "w");
 
 	printf("[DEBUG] Mode: %s\n", argv[1]);
-	printf("[DEBUG] %.1f programmed simulations... [hint <CTRL-C> for quit]\n", tot_simu);
+	printf("[DEBUG] %.1f programmed simulations... [hint <CTRL-C> to quit]\n", tot_simu);
 	fprintf(stderr, "	Progress [ ");
 
 	while (vect.L1 < vect.L1_MAX) {
@@ -67,6 +53,15 @@ int main(int argc, char **argv) {
 			vect.L2+=vect.L2_PAS;
 			while (vect.L3 < vect.L3_MAX) {
 				vect.L3+=vect.L3_PAS;
+
+                arg_list[0] = "reduc_quad.m";
+                int len = asprintf( &arg_list[1], "%g", vect.L1 );
+                len = asprintf( &arg_list[2], "%g", vect.L2 );
+                len = asprintf( &arg_list[3], "%g", vect.L3 );
+                len = asprintf( &arg_list[4], "%g", R );
+                len = asprintf( &arg_list[5], "%g", MU );
+                spawn("./reduc_quad.m", arg_list);
+                wait(&child_status);
 				
 				simu_mcc(&vect, &val_out, write, fd);
 				i++;

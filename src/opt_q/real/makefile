@@ -33,4 +33,4 @@ clean:
 	rm -rf *.o
 
 mrproper: clean
-	rm -rf programme_pi
+	rm -rf opt_q

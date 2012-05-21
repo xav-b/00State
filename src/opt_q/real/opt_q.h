@@ -65,6 +65,7 @@ struct conf {
 /*
  *Global variable for function calls convenience
  */
+int cpt_tour = 0;
 float cmd_i[2] = {0, 0};
 float return_int;
 double cp;
@@ -105,8 +106,46 @@ void init(output *out_ptr, conf *c_ptr) {
 /*
  *Compute the command from feedback
  */
+void get_real_pi(float consign, output *out_ptr, conf *c_ptr, float cp) {
+    /*
+     *Real coding inside processor
+     */
+    out_ptr->position[1] = ( 4*(out_ptr->position[1]) ) / 3.1416;
+    //if (out_ptr->position[1] < -4)  {
+        //out_ptr->position[1] += 8;
+        //cpt_tour--;
+        //printf("%.2f\n", out_ptr->position[1]);
+    //}
+    //else if (out_ptr->position[1] > 4) {
+        //out_ptr->position[1] -= 8;
+        //cpt_tour++;
+        //printf("%.2f\n", out_ptr->position[1]);
+    //}
+    //out_ptr->position[1] += 8*cpt_tour;
+
+    out_ptr->position[1] = ((out_ptr->position[1]/8)*REF);
+    //if (out_ptr->position[1] < -1)  
+        //out_ptr->position[1] = -1;
+    //else if (out_ptr->position[1] > 1) 
+        //out_ptr->position[1] = 1;
+
+	return_int = c_ptr->DELTA * (out_ptr->position[1] - consign) + return_int;
+	cmd_i[0] = (c_ptr->L2 * consign - (c_ptr->L2 * out_ptr->position[1] + c_ptr->L1 * out_ptr->speed[1] + c_ptr->L3 * return_int)) + c_ptr->WEIGTH * c_ptr->LENGTH * 9.8 * cp;
+
+	if (c_ptr->SATURATION_FLAG) {
+		if (cmd_i[0] > c_ptr->SATURATION) 
+			cmd_i[0] = c_ptr->SATURATION;
+		else if (cmd_i[0] < -(c_ptr->SATURATION)) 
+			cmd_i[0] = -(c_ptr->SATURATION);
+		
+	}
+}
+
+
+/*
+ *Compute the command from feedback
+ */
 void get_pi(float consign, output *out_ptr, conf *c_ptr, float cp) {
-	// BF
 	return_int = c_ptr->DELTA * (out_ptr->position[1] - consign) + return_int;
 	cmd_i[0] = (c_ptr->L2 * consign - (c_ptr->L2 * out_ptr->position[1] + c_ptr->L1 * out_ptr->speed[1] + c_ptr->L3 * return_int)) + c_ptr->WEIGTH * c_ptr->LENGTH * 9.8 * cp;
 
@@ -153,18 +192,15 @@ int simu_mcc(conf* cpt_vect, output* cpt_out, int write, FILE* fd) {
 		cpt_out->speed[cpt]=0;
 	}
 	cpt = 0;
+    cpt_tour = 0;
 
 	do {
 		if (cpt_vect->CP_FLAG) 
 			cp = sin(cpt_out->position[0] * REF);
 		else
-			cp = 0;
-        /*
-         *Real coding inside processor
-         */
-        cpt_out->position[1] = 
+			cp = 0; 
 
-		get_pi(cpt_vect->CONSIGN, cpt_out, cpt_vect, cp);	 //compute cmd_i[0] 
+		get_real_pi(cpt_vect->CONSIGN, cpt_out, cpt_vect, cp);	 //compute cmd_i[0] 
 		mcc_model_real(cpt_out, cpt_vect);		 				//compute output[0]
 
 	    /*  increment indexes for next loop  */
