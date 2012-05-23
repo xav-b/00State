@@ -17,16 +17,6 @@ int main(int argc, char **argv) {
 	int write = 0;
 	output val_out;
 	conf vect;
-    int child_status;
-    char* arg_list[] = {
-        "program",
-        "NULL",
-        "NULL",
-        "NULL",
-        "NULL",
-        "NULL",
-        NULL
-    };
 
 	printf("\n-----   Numeric simulation for MCC command   ------\n");
     if (argc < 2) 
@@ -53,15 +43,6 @@ int main(int argc, char **argv) {
 			vect.L2+=vect.L2_PAS;
 			while (vect.L3 < vect.L3_MAX) {
 				vect.L3+=vect.L3_PAS;
-
-                arg_list[0] = "reduc_quad.m";
-                int len = asprintf( &arg_list[1], "%g", vect.L1 );
-                len = asprintf( &arg_list[2], "%g", vect.L2 );
-                len = asprintf( &arg_list[3], "%g", vect.L3 );
-                len = asprintf( &arg_list[4], "%g", R );
-                len = asprintf( &arg_list[5], "%g", MU );
-                spawn("./reduc_quad.m", arg_list);
-                wait(&child_status);
 				
 				simu_mcc(&vect, &val_out, write, fd);
 				i++;
@@ -70,7 +51,7 @@ int main(int argc, char **argv) {
 					fprintf(fd, "%d\t%4.2f\t%2.2f\t%2.2f\t%2.2f\t%2.2f\t%2.2f\n", i, val_out.overshoot, val_out.tm, val_out.static_error, vect.L1, vect.L2, vect.L3);
 
 				if (val_out.static_error < vect.STATIC_TOLERANCE) {
-					val_out.compromise = val_out.static_error + val_out.tm;
+					val_out.compromise = val_out.static_error + val_out.tm + (val_out.overshoot/20);
 					if (val_out.compromise < best_all[3])  {
 						best_all[0] = vect.L1; 
 						best_all[1] = vect.L2; 

@@ -17,8 +17,9 @@ function flag = check_solution( A, q_omega, q_theta, q_integral )
 	H = [ sqrt(q_omega), 0, 0; 0, sqrt(q_theta), 0; 0, 0, sqrt(q_integral) ];
 	#TODO détermination de H vérifiant Q = t.' * H
 	HA = H.*A;
+    HA2 = HA*A;
 
-	if ( rank(A) == rank([H, HA]))
+	if ( rank([H, HA, HA2]) == 3 )
 #		printf( "Ranks equal\n" );
         flag = 0;
 	else

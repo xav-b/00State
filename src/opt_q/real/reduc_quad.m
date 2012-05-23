@@ -16,13 +16,22 @@ r = str2num(argv(){4});
 mu = str2num(argv(){5});
 tm = 0.72;
 U = 1;
+GAMMA = 0.09;
+J = 0.5;
+WN = 157;
+UN = 110;
+BWN = 0.4;
+
+#A = [ (-mu/tm), 0, 0; 1, 0, 0; 0, 1, 0 ];
+#B = [ (U/tm); 0; 0 ];
 Q = [ q_omega, 0, 0; 0, q_theta, 0; 0, 0, q_integral ];
-A = [ (-mu/tm), 0, 0; 1, 0, 0; 0, 1, 0 ];
-B = [ (U/tm); 0; 0 ];
+K1 = ((1 - GAMMA) * UN) / (J*WN);
+K2 = -(mu*BWN)/J;
+A = [ K1, K2, 0; 1, 0, 0; 0, 1, 0 ];
+B = [ (1/J); 0; 0 ];    #devrait être -1/J
 
 #printf( "Checking if existing solutions\n" )
 flag = check_solution(A, q_omega, q_theta, q_integral);
-flag = 0;   # temporary solution
 if ( flag < 0 )
     printf( "No solution, aborting\n" )
 elseif ( flag == 0 )
@@ -33,7 +42,6 @@ elseif ( flag == 0 )
     fprintf(fd, '%.1f %.1f %.1f\n', L(1), L(2), L(3));
     fclose(fd);
 endif
-
 
 #stop = toc();
 

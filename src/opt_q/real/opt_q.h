@@ -110,7 +110,7 @@ void get_real_pi(float consign, output *out_ptr, conf *c_ptr, float cp) {
     /*
      *Real coding inside processor
      */
-    out_ptr->position[1] = ( 4*(out_ptr->position[1]) ) / 3.1416;
+    //out_ptr->position[1] = ( 4*(out_ptr->position[1]) ) / 3.1416;
     //if (out_ptr->position[1] < -4)  {
         //out_ptr->position[1] += 8;
         //cpt_tour--;
@@ -123,7 +123,7 @@ void get_real_pi(float consign, output *out_ptr, conf *c_ptr, float cp) {
     //}
     //out_ptr->position[1] += 8*cpt_tour;
 
-    out_ptr->position[1] = ((out_ptr->position[1]/8)*REF);
+    //out_ptr->position[1] = ((out_ptr->position[1]/8)*REF);
     //if (out_ptr->position[1] < -1)  
         //out_ptr->position[1] = -1;
     //else if (out_ptr->position[1] > 1) 
@@ -169,7 +169,7 @@ void mcc_model(output *out_ptr, conf *c_ptr) {
 /*
  *Compute output states variable (grandeurs réelles)
  */
-void mcc_model_real(output *out_ptr, conf *c_ptr) {
+void mcc_real_model(output *out_ptr, conf *c_ptr) {
     float K1 = ((1 - GAMMA) * UN) / (WN * BW0);
     float K2 = J / BWN;
     float a = exp( -(c_ptr->DELTA / K2) );
@@ -201,7 +201,7 @@ int simu_mcc(conf* cpt_vect, output* cpt_out, int write, FILE* fd) {
 			cp = 0; 
 
 		get_real_pi(cpt_vect->CONSIGN, cpt_out, cpt_vect, cp);	 //compute cmd_i[0] 
-		mcc_model_real(cpt_out, cpt_vect);		 				//compute output[0]
+		mcc_real_model(cpt_out, cpt_vect);		 				//compute output[0]
 
 	    /*  increment indexes for next loop  */
 		t += cpt_vect->DELTA;
